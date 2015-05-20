@@ -1,0 +1,17 @@
+<p>
+  <strong><%= t('classrooms.student') %>:</strong>
+  <%= @classroom.student.name %>
+</p>
+
+<p>
+  <strong><%= t('classrooms.course') %>:</strong>
+  <%= @classroom.course.name %>
+</p>
+
+<p>
+  <strong><%= t('classrooms.entry_at') %>:</strong>
+  <%= @classroom.entry_at %>
+</p>
+
+<%= link_to t('views.btn.edit'), edit_classroom_path(@classroom), class: "btn btn-primary" %> |
+<%= link_to t('views.btn.back'), classrooms_path, class: "btn btn-default" %>

@@ -1,0 +1,17 @@
+<p>
+  <strong><%= t('students.name') %>:</strong>
+  <%= @student.name %>
+</p>
+
+<p>
+  <strong><%= t('students.register_number') %>:</strong>
+  <%= @student.register_number %>
+</p>
+
+<p>
+  <strong><%= t('students.status') %>:</strong>
+  <%= text_status(@student.status) %>
+</p>
+
+<%= link_to t('views.btn.edit'), edit_student_path(@student), class: "btn btn-primary" %> |
+<%= link_to t('views.btn.back'), students_path, class: "btn btn-default" %>

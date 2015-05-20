@@ -1,0 +1,45 @@
+rails new repense -d postgresql
+
+sudo -u postgres createuser repense -s
+sudo -u postgres psql
+postgres=# \gil123 repense
+
+service postgresql status
+service postgresql stop
+service postgresql start
+service postgresql restart
+sudo service postgresql reload
+
+sudo -u postgres psql postgres
+ALTER USER repense WITH PASSWORD 'gil123';
+
+ALTER USER postgres PASSWORD 'gil123';
+
+ALTER USER repense PASSWORD 'gil123';
+
+su root
+$ su postgres
+$ psql -h localhost
+> ALTER USER postgres with password 'YourNewPassword';
+
+sudo -u postgres psql
+\password
+
+
+cd repense/
+
+/home/gilcierweb/www/Dropbox/repense
+
+rails server 
+ou
+puma -p 3000
+
+rake db:create:all
+
+rails generate controller Home index
+rails generate scaffold Student name:string register_number:string status:integer
+rails generate scaffold Classroom students_id:integer courses_id:integer entry_at:datetime
+rails generate scaffold Classroom student:references course:references entry_at:datetime
+rails generate scaffold Course name:string description:string status:integer
+
+rake db:migrate

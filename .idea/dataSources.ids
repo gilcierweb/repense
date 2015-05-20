@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails repense: development" uuid="fe3e20d2-deb8-4d05-b6ba-c9f7c96dc855">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails repense: test" uuid="a81005e1-091f-4c4d-a522-6a4442c3034b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails repense: production" uuid="d5edba8d-79e1-40f7-9eac-aef56ab085f0">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails repense: development" uuid="fe3e20d2-deb8-4d05-b6ba-c9f7c96dc855">
+      <first-sync>true</first-sync>
+      <user-name>repense</user-name>
+      <user-password>dfcddfc3dfc6df9bdf98df99</user-password>
+    </data-source>
+    <data-source name="Rails repense: test" uuid="a81005e1-091f-4c4d-a522-6a4442c3034b">
+      <first-sync>true</first-sync>
+      <user-name>repense</user-name>
+      <user-password>dfcddfc3dfc6df9bdf98df99</user-password>
+    </data-source>
+    <data-source name="Rails repense: production" uuid="d5edba8d-79e1-40f7-9eac-aef56ab085f0">
+      <first-sync>true</first-sync>
+      <user-name>repense</user-name>
+      <user-password>dfcddfc3dfc6df9bdf98df99</user-password>
+    </data-source>
+  </component>
+</project>
